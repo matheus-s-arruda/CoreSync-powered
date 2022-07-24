@@ -1,0 +1,42 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "AudioStreamPlayer",
+"class": "AudioShot",
+"language": "GDScript",
+"path": "res://addons/core_sync/classes/ephemeral_audio.gd"
+} ]
+_global_script_class_icons={
+"AudioShot": "res://addons/core_sync/img/ephemeral.svg"
+}
+
+[application]
+
+config/name="Core Sync Powered"
+run/main_scene="res://scenes/main/main.tscn"
+config/icon="res://icon.png"
+
+[autoload]
+
+AudioSystem="*res://addons/core_sync/classes/audio_system.gd"
+CoreSync="*res://addons/core_sync/classes/autoload.gd"
+
+[editor_plugins]
+
+enabled=PoolStringArray( "res://addons/core_sync/plugin.cfg" )
+
+[physics]
+
+common/enable_pause_aware_picking=true
+
+[rendering]
+
+environment/default_environment="res://default_env.tres"
