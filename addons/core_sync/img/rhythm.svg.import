@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/rhytm.svg-317982260bc8a8633d5882e9032f34c7.stex"
+path="res://.import/rhythm.svg-ed3868b55b04756be962317e034b44e8.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/core_sync/img/rhytm.svg"
-dest_files=[ "res://.import/rhytm.svg-317982260bc8a8633d5882e9032f34c7.stex" ]
+source_file="res://addons/core_sync/img/rhythm.svg"
+dest_files=[ "res://.import/rhythm.svg-ed3868b55b04756be962317e034b44e8.stex" ]
 
 [params]
 
